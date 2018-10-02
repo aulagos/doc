@@ -1,3 +1,11 @@
+#HTTP requests to the NASA Kennedy Space Center WWW server
+
+#Dados :
+# Jul 01 to Jul 31, ASCII format, 20.7 MB gzip compressed , 205.2 MB. (NASA_access_log_Jul95.gz)
+# Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed , 167.8 MB. (NASA_access_log_Aug95.gz)
+
+#pd. o arquivo não tem um delimitador específico, então o erro 404 foi considerado o último campo igual a "-" (atende quase 95%)
+
 import os
 import sys
 
